@@ -54,12 +54,12 @@ export default function Home() {
   };
 
   return (
-    <div className="max-w-screen-lg mx-auto h-screen ">
+    <div className="max-w-screen-lg mx-auto h-screen dark">
       <Head>
         <title>Christian Awesome wedding gift</title>
         <meta
           name="description"
-          content="create by the best team of the world "
+          content="created by the best team of the world "
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -68,7 +68,7 @@ export default function Home() {
       <main className="bg-white p-10 w-full ">
         <h2>Virtual Office meeting</h2>
 
-        <div className="w-full p-5 mb-10 rounded-sm border border-gray-300">
+        <div className="w-full p-5 mb-10 rounded-lg border border-gray-300">
           <div className="chat chat-start">
             <div className="chat-header">Best team of the world!</div>
             <div className="chat-bubble chat-bubble-primary">
