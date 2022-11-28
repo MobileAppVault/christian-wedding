@@ -13,8 +13,8 @@ export const Card_Final: FC<CardProps> = ({ submit }) => {
 
   return (
     <div className="card w-96 bg-base-100 shadow-xl">
-      <figure className="text-4xl h-20 ">
-        <p>🤖</p>
+      <figure>
+        <img src="https://media2.giphy.com/media/U2MB1tuNQ6C72zJays/giphy.gif?cid=ecf05e47mo6acljixua5w8wzn5ss43gegj0zvz2t4yu1s0ib&rid=giphy.gif&ct=g"></img>
       </figure>
       <div className="card-body">
         <h2 className="card-title">Wow! Du bist es wirklich!</h2>
