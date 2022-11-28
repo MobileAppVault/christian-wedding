@@ -12,7 +12,7 @@ export const Card_02: FC<CardProps> = ({ submit }) => {
   };
 
   return (
-    <div className="card w-96 bg-base-100 shadow-xl">
+    <div className="card w-full lg:w-96 bg-base-100 shadow-xl">
       <figure>
         <img src="https://media1.giphy.com/media/fnuSiwXMTV3zmYDf6k/giphy.gif?cid=ecf05e47lhymyj8ergd3576159pi8yy1f1yk3pyibb6ftswf&rid=giphy.gif&ct=g" />
       </figure>
@@ -34,7 +34,7 @@ export const Card_02: FC<CardProps> = ({ submit }) => {
           />
         </div>
         <div className="card-actions justify-end">
-          <button className="btn btn-primary" onClick={handleSubmit}>
+          <button className="btn btn-primary btn-block" onClick={handleSubmit}>
             Send!
           </button>
         </div>

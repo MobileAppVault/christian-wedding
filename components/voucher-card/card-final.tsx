@@ -12,7 +12,7 @@ export const Card_Final: FC<CardProps> = ({ submit }) => {
   };
 
   return (
-    <div className="card w-96 bg-base-100 shadow-xl">
+    <div className="card w-full lg:w-96 bg-base-100 shadow-xl">
       <figure>
         <img src="https://media2.giphy.com/media/U2MB1tuNQ6C72zJays/giphy.gif?cid=ecf05e47mo6acljixua5w8wzn5ss43gegj0zvz2t4yu1s0ib&rid=giphy.gif&ct=g"></img>
       </figure>

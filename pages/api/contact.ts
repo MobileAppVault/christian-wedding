@@ -22,8 +22,12 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     htm: `Seine Addresse: ${req.body.mail}`,
   };
   transporter.sendMail(mailData, function (err: any, info: any) {
-    if (err) console.log(err);
-    else console.log(info);
+    if (err) {
+      res.status(500).json({ ok: false, err: err });
+      console.log(err);
+    } else {
+      res.status(200).json({ ok: true });
+      console.log(info);
+    }
   });
-  res.status(200).json({ ok: true });
 }

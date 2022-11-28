@@ -11,21 +11,21 @@ export default function Home() {
   const [step, setStep] = useState(0);
   const handleSubmit = (value: string) => {
     if (step === 1) {
-      if (value.toLowerCase() != "christian") {
+      if (value.trim().toLowerCase() != "christian") {
         alert("NOPE! YOU ARE A ROBOT!");
         return;
       }
     }
 
     if (step === 2) {
-      if (value.toLowerCase() != "ingram") {
+      if (value.trim().toLowerCase() != "ingram") {
         alert("NOPE! YOU ARE A ROBOT!");
         return;
       }
     }
 
     if (step === 3) {
-      if (value.toLowerCase() != "1.7") {
+      if (value.trim().toLowerCase() != "1.7") {
         alert("NOPE! YOU ARE A ROBOT!");
         return;
       }
@@ -65,10 +65,10 @@ export default function Home() {
       </Head>
       <NavBar />
 
-      <main className="bg-white p-10 w-full ">
-        <h2>Virtual Office meeting</h2>
+      <main className="bg-white  w-full pb-10 pt-10 lg:px-10 ">
+        <h2 className="mx-4 lg:mx-0">Virtual Office meeting</h2>
 
-        <div className="w-full p-5 mb-10 rounded-lg border border-gray-300">
+        <div className="w-full p-5 mb-10   rounded-none  lg:rounded-lg border border-gray-300">
           <div className="chat chat-start">
             <div className="chat-header">Best team of the world!</div>
             <div className="chat-bubble chat-bubble-primary">
@@ -106,7 +106,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="grid justify-items-center gap-2 ">
+        <div className="grid justify-items-center gap-2 mx-10 ">
           {step === 0 && <Card_01 submit={handleSubmit} />}
           {step === 1 && <Card_02 submit={handleSubmit} />}
           {step === 2 && <Card_03 submit={handleSubmit} />}
