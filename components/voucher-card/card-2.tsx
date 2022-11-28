@@ -13,8 +13,8 @@ export const Card_02: FC<CardProps> = ({ submit }) => {
 
   return (
     <div className="card w-96 bg-base-100 shadow-xl">
-      <figure className="text-4xl h-20 ">
-        <p>🤖</p>
+      <figure>
+        <img src="https://media1.giphy.com/media/fnuSiwXMTV3zmYDf6k/giphy.gif?cid=ecf05e47lhymyj8ergd3576159pi8yy1f1yk3pyibb6ftswf&rid=giphy.gif&ct=g" />
       </figure>
       <div className="card-body">
         <h2 className="card-title">Google Captcha!</h2>
