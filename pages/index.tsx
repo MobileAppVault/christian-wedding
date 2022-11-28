@@ -25,7 +25,7 @@ export default function Home() {
     }
 
     if (step === 3) {
-      if (value.toLowerCase() != "1.2") {
+      if (value.toLowerCase() != "1.7") {
         alert("NOPE! YOU ARE A ROBOT!");
         return;
       }
@@ -90,13 +90,13 @@ export default function Home() {
           <div className="chat chat-start">
             <div className="chat-header">Best team of the world!</div>
             <div className="chat-bubble chat-bubble-accent">
-              Damit du es bei deinem nächsten Urlaub mal was Ordentliches wird,
+              Damit aus deinem nächsten Urlaub mal was Ordentliches wird,
               bekommst du eine f#?!cking awesome booking.com Gutschein.
             </div>
           </div>
           <div className="chat chat-end">
             <div className="chat-header">You!</div>
-            <div className="chat-bubble">Wow ihr seit soo cool! 😢🥹</div>
+            <div className="chat-bubble">Wow ihr seit soo cool! 😢 🥹</div>
           </div>
           <div className="chat chat-start">
             <div className="chat-header">Best team of the world!</div>
